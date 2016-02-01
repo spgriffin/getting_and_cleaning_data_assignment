@@ -1,8 +1,8 @@
 # Getting and Cleaning Data Project
-## This project serves as the final class assignment for the Johns Hopkins Coursera class, Getting and Cleaning Data
+### This project serves as the final class assignment for the Johns Hopkins Coursera class, Getting and Cleaning Data
 
 ## Purpose
-### The purpose of this project is to create a script that downloads a "raw" dataset from a predetermined URL and automatically "tidy" the data for further analysis.  The script developed to tidy the data(run_analysis.R) does the following:
+#### The purpose of this project is to create a script that downloads a "raw" dataset from a predetermined URL and automatically "tidy" the data for further analysis.  The script developed to tidy the data(run_analysis.R) does the following:
 
 1. Merges the training and the test sets to create one data set.
 2. Extracts only the measurements on the mean and standard deviation for each measurement.
@@ -11,10 +11,10 @@
 5. Creates a second, independent tidy data set with the average of each variable for each activity and each subject.  The output is called tidy_data.txt.
 
 ## Running the Script
-### Set your working directory in R and source run_analysis.R
+#### Set your working directory in R and source run_analysis.R
 
 ## Process
-### The process is also documented in the script itself.
+#### The process is also documented in the script itself.
 
 1. Automatically load required libraries.  The script will install the library if it does not exist.
 2. Create data directory for data storage.
