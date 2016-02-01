@@ -1,4 +1,4 @@
-####################################################################
+######################################################################
 ## This script is used to tidy a specific smartphone 
 ## activity dataset.  The script performs the following:
 ## (1) downloads the data from a URL
@@ -12,10 +12,13 @@
 ## (5) Creates a second, independent tidy data set with the 
 ##     average of each variable for each activity and each subject
 ##     from the dataset created in Step 4
+#######################################################################
 ##
-##  To run the script, set the working directory and source the script
+##  Running the script: 
+##  Set the working directory 
+##  Source the Script
 ##
-####################################################################
+#######################################################################
 
 ## check for data.table library
 packages <- c("data.table","dplyr")
